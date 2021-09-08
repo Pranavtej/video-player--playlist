@@ -1,0 +1,65 @@
+<IDOCTYPE html>
+
+     <html>
+    
+   <head>
+    
+     <meta charset="utf-8">
+    
+    <title>Bootstrap</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <link href="mediaelementplayer.min.css" rel="stylesheet" />
+    
+    <link href="loop.min.css" rel="stylesheet" />
+    
+    <link href="playlist.min.css" rel="stylesheet" />
+    
+ </head>
+    
+ <body>
+    <div class="container mt-5 mb-5W">
+
+        <div class="row">
+        
+        <div class="col-md-8">
+        
+        <video data-cast-title="CodeTube Playlist" data-cast-description="Description codetube tutorial" width="728" height="410" poster="poster/Blue Moon.jpg"> <source title="Sample text " data-playlist-thumbnail="1.png" src="Eye - 79545.mp4" type="video/mp4"> <source title="Project Video player" data-playlist-thumbnail="1.png" src="Eye - 79545.mp4" type="video/mp4"/> <source title=">Pranav<" data-playlist-thumbnail="1.png" src="Eye - 79545.mp4" type="video/mp4"/>
+        
+        </video>
+        
+        </div>
+        
+        <div class="col-md-4"></div>
+        
+        </div>
+        
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <script src="mediaelement-and-player.min.js"></script>
+        
+        <script src="loop.min.js"></script> <script src="playlist.min.js"></script>
+        
+        <script>
+        
+     
+        
+        $('video').mediaelementplayer({
+        
+        features: ['prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'duration', 'volume',
+        
+        'playlist', 'shuffle', 'loop', 'fullscreen'] 
+        
+    
+        });
+        
+        </script>
+        
+    </body>
+        
+ </html>
